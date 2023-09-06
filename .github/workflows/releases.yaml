@@ -28,9 +28,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            linux-amd64/zkvyper-linux-amd64-musl-${{ env.VERSION }}*
-            macosx-amd64/zkvyper-macosx-amd64-${{ env.VERSION }}*
-            macosx-arm64/zkvyper-macosx-arm64-${{ env.VERSION }}*
-            windows-amd64/zkvyper-windows-amd64-gnu-${{ env.VERSION }}*
+            linux-amd64/zkvyper-*${{ env.VERSION }}*
+            macosx-amd64/zkvyper-*${{ env.VERSION }}*
+            macosx-arm64/zkvyper-*${{ env.VERSION }}*
+            windows-amd64/zkvyper-*${{ env.VERSION }}*
           tag_name: ${{ env.VERSION }}
           token: ${{ secrets.GITHUB_TOKEN }} 
