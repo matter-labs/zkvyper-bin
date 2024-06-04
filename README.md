@@ -1,4 +1,4 @@
-# ZKsync vyper compiler binaries
+# ZKsync Vyper compiler binaries
 
 This repository contains current and historical builds of the ZKsync Vyper (`zkvyper`) compiler binaries.
 
